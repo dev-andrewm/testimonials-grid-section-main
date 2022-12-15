@@ -36,7 +36,7 @@ main {
 }
 
 .testimonials-box {
-  margin: 0 auto;
+  margin: auto;
   max-width: 108.0rem;
   display: grid;
   justify-items: center;
@@ -118,7 +118,8 @@ blockquote p:last-child {
 }
 
 footer {
-  margin: 1.0rem 0;
+  padding-top: 1.0rem;
+  margin: 0 auto;
   font-size: 1.1rem;
   text-align: center;
 }
@@ -161,6 +162,7 @@ footer a {
 }
 
 @media (min-width: 1201px) {
+
   .testimonials-box {
     grid-template: 
     "Daniel Daniel Jonathan Kira" 1fr
